@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
 nav {
     display: flex;
     justify-content: space-between;
@@ -44,4 +45,18 @@ li {
     padding: 15px;
     cursor: pointer;
     color: black;
+=======
+#sidebar{
+    display: inline-block;
+    padding: 20px;
+    background-color: lightgray;
+}
+.sidebar-title {
+font-size: 2rem;
+padding-bottom: 10px;
+}
+#sidebar li{
+    padding: 1px 10px;
+    list-style: none;
+>>>>>>> 9394094978622eb9f2cea513c27bc55eae42c728
 }
