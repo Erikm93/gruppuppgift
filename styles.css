@@ -1,15 +1,15 @@
 * {
     margin: 0;
 }
-<<<<<<< HEAD
+
 body{
     min-height: 100vh;
-=======
+}
 
 #container {
     display: grid;
     grid-template-columns: 70px 1fr 40px;
->>>>>>> add2e2939aee7443829794fa24e7d2a8795b488f
+
 }
 
 #footer {
@@ -96,8 +96,8 @@ padding-bottom: 10px;
 .scrollbox{
     overflow: auto;
 }
-<<<<<<< HEAD
-=======
+
+
 
 #footer {
     position: absolute;
@@ -105,4 +105,3 @@ padding-bottom: 10px;
     width: 100%;
     height: 2.5rem;            /* Footer height */
   }
->>>>>>> add2e2939aee7443829794fa24e7d2a8795b488f
