@@ -1,3 +1,17 @@
 *{
     margin: 0;
 }
+
+#sidebar{
+    display: inline-block;
+    padding: 20px;
+    background-color: lightgray;
+}
+.sidebar-title {
+font-size: 2rem;
+padding-bottom: 10px;
+}
+#sidebar li{
+    padding: 1px 10px;
+    list-style: none;
+}
