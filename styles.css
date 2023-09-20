@@ -1,11 +1,24 @@
 * {
     margin: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c41c16c72b24dcefafb6a05e3df3e3ab06ad1a91
 body{
+    position: relative;
     min-height: 100vh;
 }
+<<<<<<< HEAD
 .container .flex{
     grid-template-columns: 70px 1fr 40px;
+=======
+
+#container {
+    display: grid;
+    grid-template-columns: 70px 1fr 40px;
+
+>>>>>>> c41c16c72b24dcefafb6a05e3df3e3ab06ad1a91
 }
 
 #footer {
@@ -61,7 +74,7 @@ li {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 62px;
+    top: 81px;
     left: 0;
     width: 270px;
     height: 90%;
@@ -71,10 +84,12 @@ li {
 }
 .sidebar-title {
 font-size: 2.2rem;
+
 padding-bottom: 10px;
 }
 .sidebar-sub-title{
-    padding: 15px 0 5px 0
+    padding: 15px 0 5px 0;
+    border-bottom: 1px solid green;
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -92,6 +107,7 @@ padding-bottom: 10px;
 .scrollbox{
     overflow: auto;
 }
+<<<<<<< HEAD
 
 .flex {
     display: flex; 
@@ -106,3 +122,20 @@ padding-bottom: 10px;
     grid-template-columns: repeat(20, 1fr);
    
 }
+=======
+.scrollbox-inner li:hover{
+    background-color: gray
+}
+
+
+#footer {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background: lightblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+>>>>>>> c41c16c72b24dcefafb6a05e3df3e3ab06ad1a91
