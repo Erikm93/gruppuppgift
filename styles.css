@@ -2,7 +2,6 @@
     margin: 0;
 }
 
-<<<<<<< HEAD
 #container {
     display: grid;
     grid-template-columns: 70px 1fr 40px;
@@ -12,8 +11,7 @@
     grid-column-start: 1;
     grid-column-end: span 3;
     background: lightblue;
-=======
-<<<<<<< HEAD
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -56,9 +54,13 @@ li {
     padding: 15px;
     cursor: pointer;
     color: black;
-=======
+}
 #sidebar{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 20px;
     background-color: lightgray;
 }
@@ -66,9 +68,20 @@ li {
 font-size: 2rem;
 padding-bottom: 10px;
 }
-#sidebar li{
-    padding: 1px 10px;
-    list-style: none;
->>>>>>> 9394094978622eb9f2cea513c27bc55eae42c728
->>>>>>> 8c52dcc6d598faa2f01e8a1d0bb1cad3dd997648
+
+::-webkit-scrollbar{
+    width: 5px;
 }
+::-webkit-scrollbar-thumb{
+    background: #fff ;
+}
+
+#sidebar li{
+    padding: 2px 10px;
+    list-style: none;
+
+}
+.scrollbox{
+    overflow: auto;
+}
+.scrollbox-inner li
