@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
 }
 
+<<<<<<< HEAD
 #container {
     display: grid;
     grid-template-columns: 70px 1fr 40px;
@@ -11,4 +12,63 @@
     grid-column-start: 1;
     grid-column-end: span 3;
     background: lightblue;
+=======
+<<<<<<< HEAD
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    border: 1px solid;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+.nav-container {
+    padding: 20px;
+    margin: 10px;
+
+    background-color: white;
+}
+
+.navbar a:hover {
+    background: green;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+
+li {
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+=======
+#sidebar{
+    display: inline-block;
+    padding: 20px;
+    background-color: lightgray;
+}
+.sidebar-title {
+font-size: 2rem;
+padding-bottom: 10px;
+}
+#sidebar li{
+    padding: 1px 10px;
+    list-style: none;
+>>>>>>> 9394094978622eb9f2cea513c27bc55eae42c728
+>>>>>>> 8c52dcc6d598faa2f01e8a1d0bb1cad3dd997648
 }
